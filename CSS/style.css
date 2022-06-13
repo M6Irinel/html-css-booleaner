@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER -------------------------------------------------- */
+
+header {
+    background-color: #0b8dce;
+    background-image: url('../img/pattern.png');
+    background-size: auto 195%;
+    background-repeat: repeat-x;
+    background-position: 135px 0;
+}
+
+header img {
+    width: 370px;
+    padding: 75px 0 15px 10px;
+}
+
+/* MAIN ----------------------------------------------------- */
+
+main {
+    padding: 8px;
+}
+
+/* #Titolo ----------- */
+
+#titolo h1 {
+    font-size: 70px;
+    padding-top: 25px;
+    line-height: 70px;
+}
+
+h3 {
+    color: gray;
+}
+
+#editor {
+    font-size: 32px;
+}
+
+#logo-p {
+    color: rgb(0, 204, 255);
+}
+
+#data-p {
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+/* #img-tim ----------------- */
+
+#img-tim img {
+    height: 650px;
+}
+
+#img-tim p {
+    font-size: 22px;
+}
+
+/* .font-def ---------------- */
+
+.font-def {
+    font-size: 30px;
+    margin-top: 40px;
+}
+
+#ul {
+    padding-left: 25px;
+}
+
+/* table ------------------- */
+
+table {
+    width: 100%;
+}
+
+table * {
+    margin: 0;
+}
+
+table th {
+    text-align: left;
+    color: white;
+    background-color: #0b8dce;
+}
+
+table tr td:not(:last-child){
+    width: 26%;
+}
+
+table tbody tr:nth-child(odd) {
+    background-color: #ade4ff;
+}
+
+/* fondo main ------------------- */
+
+#img-div-1, #img-div-2 {
+    width: 400px;
+    height: calc(207px * 1.5);
+    margin-bottom: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    color: white;
+    font-size: 40px;
+}
+
+#img-div-1 {
+    background-image: url('../img/monitor.jpg');
+    margin-top: 15px;
+}
+
+#img-div-2 {
+    background-image: url('../img/graph.jpg');
+}
