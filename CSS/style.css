@@ -67,18 +67,22 @@ h3 {
     margin-top: 40px;
 }
 
+/* EVIDENZIATORE ------------ */
+
+span:not(#logo-p) {
+    background-color: yellow;
+}
+
+/* Lista -------------------- */
+
 #ul {
     padding-left: 25px;
 }
 
-/* table ------------------- */
+/* table -------------------- */
 
 table {
     width: 100%;
-}
-
-table * {
-    margin: 0;
 }
 
 table th {
@@ -95,7 +99,11 @@ table tbody tr:nth-child(odd) {
     background-color: #ade4ff;
 }
 
-/* fondo main ------------------- */
+/* fondo main ---------------- */
+
+#cont-img h3 {
+    font-size: 30px;
+}
 
 #img-div-1, #img-div-2 {
     width: 400px;
