@@ -46,6 +46,7 @@ h3 {
 
 #logo-p {
     color: rgb(0, 204, 255);
+    text-decoration-line: none;
 }
 
 #data-p {
@@ -72,7 +73,7 @@ h3 {
 
 /* EVIDENZIATORE ------------ */
 
-span:not(#logo-p) {
+span {
     background-color: yellow;
 }
 
